@@ -185,3 +185,18 @@ ul {
 .hero__video:not([src=""]) ~ .hero__video-placeholder {
   /* Placeholder stays visible until JS hides it or video loads */
 }
+
+/* ============================================
+   SECTION 2: SCROLL ANIMATION
+   ============================================ */
+
+.animation {
+  width: 100%;
+  background: var(--color-black);
+}
+
+.animation-container {
+  width: 100%;
+  min-height: 200vh;
+  position: relative;
+}
