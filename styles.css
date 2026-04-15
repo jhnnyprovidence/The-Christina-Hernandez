@@ -245,3 +245,62 @@ ul {
   height: 1px;
   background: linear-gradient(90deg, transparent, var(--color-gold), transparent);
 }
+
+/* ============================================
+   RESPONSIVE
+   ============================================ */
+
+@media (max-width: 768px) {
+  .hero {
+    flex-direction: column;
+  }
+
+  .hero__left {
+    width: 100%;
+    padding: 48px 32px;
+    min-height: 60vh;
+    border-right: none;
+    border-bottom: 1px solid var(--color-panel-border);
+  }
+
+  .hero__title {
+    font-size: 2rem;
+  }
+
+  .hero__right {
+    width: 100%;
+    min-height: 50vh;
+  }
+
+  .hero__scroll-hint {
+    padding-top: 24px;
+  }
+
+  .christina__portrait {
+    width: 220px;
+    height: 220px;
+  }
+
+  .christina {
+    padding: 80px 24px;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero__left {
+    padding: 36px 24px;
+  }
+
+  .hero__title {
+    font-size: 1.625rem;
+  }
+
+  .christina__portrait {
+    width: 180px;
+    height: 180px;
+  }
+
+  .christina__name {
+    font-size: 1rem;
+  }
+}
