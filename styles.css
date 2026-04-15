@@ -1,0 +1,45 @@
+/* ============================================
+   THE CHRISTINA HERNANDEZ — Design System
+   ============================================ */
+
+:root {
+  /* Colors */
+  --color-black: #0A0A0A;
+  --color-gold: #C9A84C;
+  --color-cream: #F5F0E8;
+  --color-warm-gray: #A89070;
+  --color-dark-gold: #3D2E0A;
+  --color-muted-brown: #665540;
+  --color-panel-gradient-end: #1A1208;
+  --color-panel-border: #2A1F0A;
+
+  /* Typography */
+  --font-serif: 'Playfair Display', Georgia, serif;
+  --font-sans: 'Lato', 'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Reset */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-black);
+  color: var(--color-cream);
+  font-family: var(--font-sans);
+  overflow-x: hidden;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+ul {
+  list-style: none;
+}
