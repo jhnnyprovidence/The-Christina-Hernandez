@@ -221,7 +221,20 @@ ul {
   font-weight: 700;
   letter-spacing: 3px;
   text-transform: uppercase;
-  margin-bottom: 12px;
+  margin-bottom: 24px;
+}
+
+.christina--inline {
+  padding: 0;
+  margin-top: 28px;
+  background: none;
+  align-items: flex-start;
+}
+
+.christina--inline .christina__portrait {
+  width: 100px;
+  height: 100px;
+  max-width: 100%;
 }
 
 .christina__portrait {
@@ -237,6 +250,7 @@ ul {
   width: 100%;
   height: 100%;
   object-fit: cover;
+  object-position: center 15%;
   display: block;
 }
 
@@ -273,13 +287,9 @@ ul {
     /* image stays as absolute background until desktop breakpoint */
   }
 
-  .christina__portrait {
-    width: 220px;
-    height: 220px;
-  }
-
-  .christina {
-    padding: 100px 24px;
+  .christina--inline .christina__portrait {
+    width: 115px;
+    height: 115px;
   }
 
   .christina__name {
@@ -326,13 +336,9 @@ ul {
     background: linear-gradient(90deg, var(--color-black) 0%, transparent 15%);
   }
 
-  .christina__portrait {
-    width: 280px;
-    height: 280px;
-  }
-
-  .christina {
-    padding: 120px 24px;
+  .christina--inline .christina__portrait {
+    width: 130px;
+    height: 130px;
   }
 
   .christina__name {
